@@ -1,0 +1,564 @@
+body {
+    margin: 2px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+body * { border: 1px dotted green;}
+/* header */
+.barra-nav {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin: 0 90px;
+    width: 90%;
+    height: 90px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: #232C50;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: #F3603B;
+}
+
+#buttom {
+    padding: 10px;
+    width: 134px;
+    height: 44px;
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*seccion principal */
+section {
+    width: 100%;
+}
+.seccionprincipal {
+    padding-top: 80px;
+    display: flex;
+    margin: 0 15px;
+}
+
+/*
+.seccionprincipal > .columna1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+*/
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 66px;
+    align-items: center;
+    letter-spacing: -0.070em;
+    color: #232C50;
+    margin: 0 50px;
+}
+
+.text {
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.buttom2 {
+    padding: 10px;
+    width: 134px;
+    height: 44px;
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+
+.img {
+    height: 500px;
+    width: 550px;
+    /*left: 714px;
+    top: 213px;*/
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    /*
+    position: absolute;
+    */
+    /*left: 48%;
+    right: 10.14%;
+    bottom: 75.03%;
+    margin: 10px;*/
+}
+
+/* seccion seundaria */
+
+.seccionsecundaria {
+    padding-top: 150px;
+    display: flex;
+    margin: 0px 130px;
+    padding: auto;
+}
+
+.separacion {
+    padding: 40px;
+}
+
+h2 {
+
+    font-style: normal;
+    color: #232851;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    width: 433px;
+    height: 88px;
+}
+
+.parrafo3L {
+    width: 337px;
+    height: 88px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 180.1%;
+    color: #000000
+}
+
+/* lista de opciones */
+
+.text-principal {
+    display: flex;
+    color: #323851;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+}
+
+#bottom-num {
+    padding: 10px;
+    width: 80px;
+    height: 44px;
+    background: #F3603B;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+div>span {
+    width: 437px;
+    height: 104px;
+    color: #B3B2B7;
+    font-size: 16px;
+    font-weight: 500;
+
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+}
+
+.ajustar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.ajustar2 {
+    margin-left: 100px;
+}
+
+
+
+/* cards */
+h3 {
+    font-size: 40px;
+    color: #242E53;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.cards-nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FAFAFA;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+}
+
+.fotos {
+    width: 80px;
+    margin: -40px;
+}
+
+h4 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttom3 {
+    display: flex;
+    justify-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 100px;
+    height: 35px;
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.cards-nav div>p {
+    color: #B9B9C1;
+    width: 390px;
+    height: 78px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 156.6%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* final footer barra-naranja*/
+
+.footerfinal {
+    padding-top: 20px;
+    background-color: #F3613C;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700px;
+    margin-left: 80px;
+    width: 438px;
+    height: 96px;
+}
+
+.white h2 {
+    color: #FFFFFF;
+}
+
+.bottom-naranja {
+    padding: 10px;
+    width: 134px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #F3603B;
+    font-size: 13px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.margen {
+    margin-right: 5%;
+}
+
+/* footer barra negra */
+
+.footerfinal2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1E1E26;
+    width: 100%;
+    height: 247px;
+}
+
+.imagen-logofinal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#list-final {
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-direction: row;
+    margin: 8px;
+    cursor: pointer;
+}
+
+#list-final ul>li {
+    margin: 20px 40px;
+    list-style-type: none;
+}
+
+ul li>a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.formulario-final {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer form>input {
+    border-radius: 50px;
+    width: 201px;
+    height: 44px;
+    text-align: center;
+    color: #A0A0A0;
+    font-size: 14px;
+}
+
+footer form>button {
+    background: #F3603B;
+    border-radius: 50px;
+    font-size: 14px;
+    width: 63px;
+    height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+footer div>p {
+    color: #8C8C94;
+    font-size: 12.5px;
+    line-height: 18px;
+}
+
+/* version movil */
+
+@media (max-width: 375px) {
+
+    /*header */
+    body {
+        margin: 0;              background-color: #F3603B;
+    }
+
+    main {
+        background-color: blue;
+        justify-content: center;
+
+        /*
+    width: 100%;
+*/
+    }
+
+    nav {display: none;}
+
+    header form {
+        display: none;
+    }
+
+    /* seccion principal */
+
+    .seccionprincipal {
+        flex-direction: column-reverse;
+        padding-bottom: 100px;
+    }
+
+    .img {
+        display: flex;
+        height: auto;
+        width: 100%;
+    }
+
+    .columna1 {
+        margin-left: 0;
+        justify-content: space-between;
+        text-align: center;
+    }
+    h1 {        
+        font-size: 40px;
+        line-height: 66px;
+        align-items: center;
+        letter-spacing: -0.070em;
+        color: #232C50;
+        margin: 0 ;
+    }
+    .text {
+        margin-left: 0;
+    }
+    .buttom2 {
+        margin-left: 0;
+    }
+
+    /* seccion secundaria */
+    .seccionsecundaria {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 50px;
+        margin: 0;   
+    }
+
+    .parrafo3L {
+        width:100%;
+        height: auto;
+    }
+
+}
+
+/*
+     .separacion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+     }
+    }
+/*
+     .seccionprincipal >.img{
+        height: 300px;
+        padding-left: 20px;
+     }
+
+}
+
+/* footer barra negra 
+    }
+    .footerfinal2 {
+        flex-direction: column-reverse;
+
+        justify-content: space-around;
+        
+        height: 247px;
+        
+    }
+
+    .imagen-logofinal {
+        justify-content: center;
+    }
+
+
+    #list-final {
+        list-style-type: none;
+        color: #FFFFFF;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-direction: row;
+        margin: 10px;
+        cursor: pointer;
+
+    }
+
+    #list-final ul>li {
+        margin: 10px 20px;
+    }
+
+/* version movil */
+/*
+@media (max-width: 375px) {
+    /* footer barra negra * /
+
+    .footerfinal2 {
+        flex-direction: column-reverse;
+
+        justify-content: space-around;
+        /*
+        height: 247px;
+        * /
+    }
+
+    .imagen-logofinal {
+        justify-content: center;
+    }
+
+
+    #list-final {
+        list-style-type: none;
+        color: #FFFFFF;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-direction: row;
+        margin: 10px;
+        cursor: pointer;
+
+    }
+
+    #list-final ul>li {
+        margin: 10px 20px;
+    }
+
+}*/
